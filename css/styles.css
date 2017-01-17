@@ -1,0 +1,17 @@
+.mainContent {
+    background: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 2em;
+}
+.helloText {
+    color: rgb(0, 102, 102);
+    font-weight: 900;
+}
+.buttonStyle {
+  margin-left: 1em;
+}
+.buttonStyle:hover {
+  color: rgb(138, 140, 140);
+}

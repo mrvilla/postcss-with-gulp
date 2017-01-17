@@ -1,0 +1,15 @@
+.mainContent {
+    background: black;
+    display: flex;
+    padding: 2em;
+}
+.helloText {
+    color: color(teal lightness(20%));
+    font-weight: 900;
+}
+.buttonStyle {
+  margin-left: 1em;
+}
+.buttonStyle:hover {
+  color: color(black contrast(15%));
+}
