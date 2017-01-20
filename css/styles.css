@@ -3,15 +3,23 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 2em;
+    padding: 1em;
+    opacity: .7;
+    filter: alpha(opacity=70);
 }
 .helloText {
     color: rgb(0, 102, 102);
     font-weight: 900;
+    font-size: 200%;
 }
 .buttonStyle {
+  font-size: 200%;
   margin-left: 1em;
+  padding: 0 1em;
+  background: #333;
+  border: none;
+  color: rgb(0, 153, 153);
 }
 .buttonStyle:hover {
-  color: rgb(138, 140, 140);
+  color: rgb(26, 255, 255);
 }

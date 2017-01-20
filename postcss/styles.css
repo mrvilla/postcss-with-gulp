@@ -1,15 +1,27 @@
+$font-size: 200%;
+
 .mainContent {
     background: black;
     display: flex;
-    padding: 2em;
+    padding: 1em;
+    opacity: .7;
 }
 .helloText {
     color: color(teal lightness(20%));
     font-weight: 900;
+    font-size: $font-size;
 }
 .buttonStyle {
+  font-size: $font-size;
   margin-left: 1em;
+  padding: 0 1em;
+  background: #333;
+  border: none;
+  color: color(teal lightness(30%));
 }
 .buttonStyle:hover {
-  color: color(black contrast(15%));
+  color: color(teal lightness(55%));
+}
+.box {
+  size: 100px 50px;
 }

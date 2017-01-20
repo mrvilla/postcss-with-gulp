@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "description": "PostCSS with Gulp project",
   "author": "Henry Villa",
+  "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^6.6.1",
+    "cssgrace": "^3.0.0",
+    "cssnano": "^3.10.0",
     "cssnext": "^1.8.4",
     "gulp": "^3.9.1",
     "gulp-postcss": "^6.2.0",
